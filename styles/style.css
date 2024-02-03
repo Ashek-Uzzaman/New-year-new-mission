@@ -141,8 +141,140 @@ button {
     color: rgb(255, 255, 255);
     font-size: 20px;
     text-align: center;
-   cursor: pointer;
+    cursor: pointer;
+
 }
-button:hover{
+
+button:hover {
     background-color: rgb(255, 127, 191);
 }
+
+/* offer container related styles */
+.offer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+}
+
+.offer-info {
+    width: 30%;
+}
+
+.best-offer {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.incoming-offer {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    padding: 16px 0px;
+}
+
+.offer-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+
+.offer-celebration-img {
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.incoming-offer-year {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+/* functional discount styles */
+.functional-discount-info {
+    text-align: center;
+    padding: 150px;
+}
+
+.functional-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.functional-sale {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.functional-discount span {
+    color: #ff0000;
+}
+
+/*  */
+.gift-container {
+    padding: 150px;
+}
+
+.gift-greedting {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 16px 0px;
+}
+
+.gift-title {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    padding-bottom: 24px;
+}
+
+.gift-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 45px;
+}
+
+.gift-img-container {
+    height: 550px;
+    width: 550px;
+
+    .gift-row-1 {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .gift-row-2 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    /* news letter container */
+    .subscribe-container {
+        border-radius: 16px;
+        background: rgba(255, 0, 0, 0.05);
+        margin: 0px 150px;
+    }
